@@ -7,7 +7,33 @@
     max-width: 400px;
     transform: translateX(-150%);
     transition: transform 1s;
-    z-index: 500;
+    z-index: 20141287;
+}
+
+
+@media (min-width: 1400px) {
+    .toastjs-container {
+        left: 30%;
+    }
+
+}
+
+@media (min-width:1000px) and (max-width: 1399px) {
+    .toastjs-container {
+        left: 20%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+    .toastjs-container {
+        left: 20px;
+    }
+}
+
+@media (max-width: 599px) {
+    .toastjs-container {
+        left: 20px;
+    }
 }
 
 .toastjs-container[aria-hidden=false] {
